@@ -11,6 +11,7 @@ regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
+regions[slider]         = 'Slider'
 regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
@@ -97,6 +98,7 @@ settings[toggle_search] = 1
 ; JavaScript
 ; --------------
 ; exclude[js][] = 'modules/contextual/contextual.js'
+scripts[] = js/custom.js
 
 ; CSS
 ; --------------

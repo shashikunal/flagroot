@@ -1,3 +1,5 @@
+body {font-family: 'Raleway', sans-serif;}
+
 html.overlay-open .navbar-fixed-top {
 	z-index:400;
 }
@@ -101,9 +103,31 @@ body #admin-menu .dropdown li {
 @media screen and (min-width:1200px) {
 	.navbar.container {
 	max-width:1140px;
+    }
+    .navbar-header {float: none;}
+    .navbar-header a.logo {width: 20%;}
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    	background:none; 
+    }
+    #navbar .navbar-header ul li a {color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:12px;
+    }
+/*  .carousel .item {
+  height: 550px;
+}*/
+ .carousel-inner img {width:100%; height: 550px;}
+ img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
 }
+ /*  #edit-search-block-form--2 {width: 300px;}*/
 
-}  /*-----------------end of min-width 1200 -------------*/
+} 
+ /*-----------------end of min-width 1200 -------------*/
 
 .navbar.container>.container {
 	margin:0;
@@ -193,17 +217,18 @@ p:last-child {
 }
 
 form#search-block-form {
-	margin:0;
+	/*margin:0;*/
+	margin:8px 0;
 }
 
 .navbar #block-search-form {
 	float:none;
-	margin:5px 0 5px 5px;
+	margin:10px 0 5px 5px;
 }
 
 @media screen and (min-width:992px) {
-	.navbar #block-search-form {
-	float:right;
+	/*.navbar #block-search-form {
+	float:right;*/
 }
 
 }/*-----------------end of min-width 992 -------------*/
@@ -675,3 +700,10 @@ table .radio input[type=radio], table .checkbox input[type=checkbox] {
  .navbar {margin-bottom: 10px;}
 #top_menu .nav li.last a{border-right: none;}
 #top_menu .nav > li > a:hover {background: none;}
+.carousel-inner img {filter:grayscale(0.7);
+ -webkit-filter:grayscale(0.7);
+
+}
+
+#block-search-form  .btn-default { background:#5fa6e3 !important;border: 1px solid #5fa6e3;}
+#navbar , .navbar-collapse{padding-right: 0px; padding-left: 0px;}

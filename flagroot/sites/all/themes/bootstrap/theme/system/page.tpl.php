@@ -126,6 +126,10 @@
   </div>
 </header>
 
+<section id="slider"> <!-- slider block -->
+  <?php print render($page['slider']); ?>
+</section> <!-- end of slider -->
+
 <div class="main-container container">
 
   <header role="banner" id="page-header">
